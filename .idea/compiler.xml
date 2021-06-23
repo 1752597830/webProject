@@ -10,7 +10,12 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="property-server-manage-master" target="1.5" />
+      <module name="property-server-manage-master" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="property-server-manage-master" options="-parameters" />
+    </option>
   </component>
 </project>
